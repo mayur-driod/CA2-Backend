@@ -4,7 +4,10 @@ const router = express.Router();
 // const users = require('./data.json');
 // console.log(users);
 
-const users = [{username:"Alice", age:25, email:"alice@gmail.com"},{username:"Mayur", age:19, email:"mayur@gmail.com"},{username:"Arnab", age:20, email:"arnab@gmail.com"},username:"nandita", age:25, email:"nandita@gmail.com"];
+const users = [{username:"Alice", age:25, email:"alice@gmail.com"},
+    {username:"Mayur", age:19, email:"mayur@gmail.com"},
+    {username:"Arnab", age:20, email:"arnab@gmail.com"},
+    {username:"nandita", age:25, email:"nandita@gmail.com"}];
 
 const port = process.env.PORT;
 
